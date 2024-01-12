@@ -1,6 +1,8 @@
-package br.com.ferdbgg;
+package br.com.ferdbgg.controllers;
 
 import java.io.IOException;
+
+import br.com.ferdbgg.App;
 import javafx.fxml.FXML;
 
 public class SecondaryController {
