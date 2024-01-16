@@ -17,7 +17,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Parent parent = loadFXML("primary");
+        Parent parent = loadFXML("tela_soma");
         scene = new Scene(parent, 640, 480);
         stage.setScene(scene);
         stage.show();
