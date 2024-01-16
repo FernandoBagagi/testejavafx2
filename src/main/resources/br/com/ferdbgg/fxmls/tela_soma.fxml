@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ferdbgg.controllers.TelaSomaController">
+   <children>
+      <Label layoutX="40.0" layoutY="40.0" text="Primeiro número" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="DejaVu Sans Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="primeiroNumeroInput" layoutX="245.0" layoutY="36.0" prefHeight="30.0" prefWidth="123.0" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="36.0" />
+      <Label layoutX="40.0" layoutY="93.0" text="Segundo número" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="101.0">
+         <font>
+            <Font name="DejaVu Sans Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="segundoNumeroInput" layoutX="245.0" layoutY="97.0" prefHeight="30.0" prefWidth="123.0" />
+      <Label layoutX="40.0" layoutY="162.0" prefHeight="21.0" prefWidth="174.0" text="Resultado        =" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="162.0">
+         <font>
+            <Font name="DejaVu Sans Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="resultadoLabel" layoutX="248.0" layoutY="158.0" prefHeight="30.0" prefWidth="117.0" />
+      <Button fx:id="botaoSomar" layoutX="180.0" layoutY="221.0" mnemonicParsing="false" onAction="#somar" text="Somar" />
+   </children>
+</AnchorPane>
